@@ -1,0 +1,40 @@
+##############################
+# Please edit this line to "lucifer_probot" to make the bot run
+lucifer_explain_config: "Ahhhhhhhhhhh i am not blind so i'll follow what the line above me asked"
+##############################  
+bot_token: "token"  
+owner_id: 1031840046
+api_key: 123456
+api_hash: ' '
+owner_username: "Amazers_xD"
+database_url: "database_url"
+message_dump: "chat_id"
+gban_dump: "chat_id"
+load: []
+no_load: []
+cert_path: None
+port: 5000
+workers: 4
+webhook: False
+url: None
+allow_excl: False
+del_cmds: False
+strict_gban: False
+strict_gmute: False
+spammers_lists: [100]
+ban_sticker: 'CAACAgUAAxkBAAIHsl5nbqXdDTmpG2HFDNhnwvE5kFbWAAI9AQAC3pTNLzeTCUmnhTneGAQ'
+
+
+# API SETUP
+cash_api: None  
+time_api: None  
+wall_api: None
+lydia_api: None
+sw_api: ''
+
+
+# Permission
+dev_users: [716243352]
+sudo_users: [919262859,761486644,636314540,832755434]
+support_users: []
+whitelist_users: []
