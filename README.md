@@ -7,7 +7,7 @@
 
 Modular Telegram Bot for managing your group with additional features.
 
-[![Lucifer](https://telegra.ph/file/6c8295a27003c2aaa67a3.jpg](https://telegram.dog/Lucifer_ProBot)
+[![lucifer](https://telegra.ph/file/6c8295a27003c2aaa67a3.jpg)](https://telegram.dog/lucifer_probot)
 
 Can be found as [Lucifer](https://t.me/Lucifer_ProBot).
 
