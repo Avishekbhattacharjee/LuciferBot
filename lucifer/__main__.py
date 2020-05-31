@@ -140,13 +140,13 @@ def send_start(bot, update):
     except:
         pass
     chat = update.effective_chat  # type: Optional[Chat]
-    text = " Hey there! My name is Lucifer - I'm here to help you manage your groups! "
-    text += "\n\nJoin our [Support Group](https://t.me/LuciferProBotSupport) if you need any support or help and Follow [Lucifer](https://t.me/LuciferUpdates) if you want to keep up with the bot news, bot updates and bot downtime."
-    text += "\n\nWant to add me to your group? [Click here!](t.me/Lucifer_ProBot?startgroup=true)"  
+    text = " Hey there! My name is Youn - I'm here to help you manage your groups! "
+    text += "\n\nJoin our [Youn Support Group](https://t.me/AnieSupport) if you need any support or help and Follow [YOUN](https://t.me/AnieNews) if you want to keep up with the bot news, bot updates and bot downtime."
+    text += "\n\nWant to add me to your group? [Click here!](t.me/YOUNETBot?startgroup=true)"  
 
-    keyboard = [[InlineKeyboardButton(text="🎉 Add me in your Group!", url="t.me/Lucifer_ProBot?startgroup=true")]]
-    keyboard += [[InlineKeyboardButton(text="📢 Support Group", url="https://t.me/LuciferProBotSupport"), InlineKeyboardButton(text="🔔 Updates", url="https://t.me/LuciferUpdates")]]
-    keyboard += [[InlineKeyboardButton(text="❔ Help", callback_data="help_back"),InlineKeyboardButton(text="👤 Contact creator",url="https://telegram.dog/Amazers_xD")]]
+    keyboard = [[InlineKeyboardButton(text="🎉 Add Me In Your Group!", url="t.me/YOUNETBot?startgroup=true")]]
+    keyboard += [[InlineKeyboardButton(text="📢 Youn Support Group", url="https://t.me/AnieSupport"), InlineKeyboardButton(text="🔔 Updates", url="https://t.me/AnieNews")]]
+    keyboard += [[InlineKeyboardButton(text="❔ Help", callback_data="help_back"),InlineKeyboardButton(text="👤 Contact creator",url="https://telegram.dog/denzid")]]
    
     update.effective_message.reply_photo(HELP_PANEL_STRING.lucifer_IMG,text, reply_markup=InlineKeyboardMarkup(keyboard), parse_mode=ParseMode.MARKDOWN)
 
@@ -246,7 +246,7 @@ def get_help(bot: Bot, update: Update):
         update.effective_message.reply_text("Contact me in PM to get the list of possible commands.",
                                             reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="Help",url="t.me/{}?start=help".format(bot.username)),
-                                                InlineKeyboardButton(text="👥 Support chat.",url="https://telegram.dog/LuciferProBotSupport")]]))
+                                                InlineKeyboardButton(text="👥 Support chat.",url="https://telegram.dog/AnieSupport")]]))
         return
 
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
